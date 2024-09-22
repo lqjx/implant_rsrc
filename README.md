@@ -1,0 +1,1 @@
+Partially rewritten in C++
