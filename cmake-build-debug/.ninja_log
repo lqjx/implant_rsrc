@@ -4,3 +4,5 @@
 1	49	7487068878514784	build.ninja	d2d3da61deb29825
 1	144	7487069046185292	CMakeFiles/implant_rsrc.dir/resources.rc.res	a9e8ffcbccbadfa5
 145	311	7487069047618841	implant_rsrc.exe	bea547b4da55a247
+0	1057	7487074515529358	CMakeFiles/implant_rsrc.dir/main.cpp.obj	586907153206787e
+1057	1269	7487074526091312	implant_rsrc.exe	bea547b4da55a247
