@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/Coding/C++/Practice/implant_rsrc/cmake-build-debug/CMakeFiles/implant_rsrc.dir/embed.manifest"
